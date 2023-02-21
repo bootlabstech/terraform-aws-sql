@@ -9,4 +9,5 @@ module "rds_db_instance" {
   password             = var.password
   parameter_group_name = var.parameter_group_name
   skip_final_snapshot  = var.skip_final_snapshot
+  port                 = var.port
 }
